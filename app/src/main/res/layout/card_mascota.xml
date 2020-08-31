@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvContacto"
+    app:cardCornerRadius="4dp"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imgFoto"
+            android:src="@drawable/perro1"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            >
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/lyNombre"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/icons8_dog_bone_100"
+                android:id="@+id/hBlanco"
+                ></ImageView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tvNombre"
+                android:text="@string/nombreMascota"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/tvRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rank"
+                android:layout_marginLeft="200dp"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/yellow_bone"
+                android:id="@+id/hAmarillo"
+                ></ImageView>
+
+        </LinearLayout>
+
+
+        ></LinearLayout>
+
+</androidx.cardview.widget.CardView>
