@@ -1,4 +1,4 @@
-package com.cali.mascotas;
+package com.cali.mascotas.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.cali.mascotas.pojo.Mascota;
+import com.cali.mascotas.R;
 
 import java.util.ArrayList;
 

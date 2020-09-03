@@ -1,4 +1,6 @@
-package com.cali.mascotas;
+package com.cali.mascotas.pojo;
+
+import java.util.ArrayList;
 
 public class Mascota {
 
@@ -6,12 +8,17 @@ public class Mascota {
     private int edad;
     private  int rank;
     private int foto;
+    private ArrayList<Foto> fotos;
 
-    public Mascota(String nombre, int edad, int rank, int foto) {
+
+
+    public Mascota(String nombre, int edad, int rank, int foto, ArrayList<Foto> fotos) {
         this.nombre = nombre;
         this.edad = edad;
         this.rank = rank;
         this.foto = foto;
+
+        this.fotos = fotos;
     }
 
     public String getNombre() {
@@ -44,5 +51,12 @@ public class Mascota {
 
     public void setFoto(int foto) {
         this.foto = foto;
+    }
+    public ArrayList<Foto> getFotos() {
+        return fotos;
+    }
+
+    public void setFotos(ArrayList<Foto> fotos) {
+        this.fotos = fotos;
     }
 }

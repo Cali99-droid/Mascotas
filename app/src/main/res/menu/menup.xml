@@ -11,8 +11,14 @@
         />
 
     <!-- Settings, should always be in the overflow -->
-    <item android:id="@+id/action_settings"
-        android:title="Opcion1"
+    <item android:id="@+id/iContacto"
+        android:title="Contacto"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/iAcercaDe"
+        android:title="Acerca de">
+
+
+    </item>
 
 </menu>
