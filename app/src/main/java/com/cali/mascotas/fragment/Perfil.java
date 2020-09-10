@@ -44,7 +44,7 @@ public class Perfil extends Fragment {
 
         listaFotos.setLayoutManager(llm);
         inicializarFotos();
-        inicializarAdap();
+       // inicializarAdap();
 
         return v;
     }
@@ -57,13 +57,16 @@ public class Perfil extends Fragment {
         fotos.add(new Foto(R.drawable.perro1));
         fotos.add(new Foto(R.drawable.perro1));
     }
-
+ /*
 
     public void inicializarAdap(){
+
         Mascota mascota = new Mascota("Catty",4,2,R.drawable.perro1, fotos);
         FotoAdapter adap = new FotoAdapter(mascota.getFotos());
         listaFotos.setAdapter(adap);
     }
+
+         */
 
 
 

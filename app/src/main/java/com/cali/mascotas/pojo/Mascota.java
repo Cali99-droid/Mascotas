@@ -8,17 +8,22 @@ public class Mascota {
     private int edad;
     private  int rank;
     private int foto;
+    private  int id;
     private ArrayList<Foto> fotos;
 
 
 
-    public Mascota(String nombre, int edad, int rank, int foto, ArrayList<Foto> fotos) {
+    public Mascota(String nombre, int edad, int rank, int foto, int id, ArrayList<Foto> fotos) {
         this.nombre = nombre;
         this.edad = edad;
         this.rank = rank;
         this.foto = foto;
-
+        this.id   = id;
         this.fotos = fotos;
+    }
+
+    public Mascota() {
+
     }
 
     public String getNombre() {
@@ -58,5 +63,14 @@ public class Mascota {
 
     public void setFotos(ArrayList<Foto> fotos) {
         this.fotos = fotos;
+    }
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 }

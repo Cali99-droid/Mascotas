@@ -6,12 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".detalle_mascota">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitulo"
+        android:text="Mascotas mas Rankeadas"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        ></TextView>
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/rvIMascotas"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvTitulo">
         <!--android:layout_below="@+id/miActionBar"
         -->
 
